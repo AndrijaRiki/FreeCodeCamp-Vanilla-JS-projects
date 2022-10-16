@@ -1,0 +1,67 @@
+@import url(https://fonts.googleapis.com/css?family=Calligraffitti:regular);
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(241,245,248);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+h1 {
+    font-family: 'Calligraffitti';
+    color: rgb(196,158,95);
+    font-weight: 900;
+    font-size: 25pt;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.card {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15pt;
+    background-color: white;
+    padding: 20px;
+    width: 45vw;
+    margin: 30px auto;
+    border-radius: 5px;
+    word-wrap: break-word;
+    box-shadow: 3px 3px rgba(222, 224, 226, 0.5),
+                3px -3px rgba(222, 224, 226, 0.5),
+                -3px 3px rgba(222, 224, 226, 0.5),
+                -3px -3px rgba(222, 224, 226, 0.5);
+}
+.question {
+    text-align: center;
+    position: relative;
+    font-weight: 600;
+}
+.question .btns {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.question button {
+    background-color: white;
+    color: rgb(196,158,95);
+    padding: 1px;
+    font-size: 15pt;
+    border-color: rgb(196,158,95);
+    position: absolute;
+    right: 0;
+    width: 30px;
+    height: 30px;
+}
+.answer, .minus {
+    display: none;
+}
+.answer {
+    margin-top: 25px;
+    text-align: center;
+}
+.answer hr {
+    margin: 15px;
+}

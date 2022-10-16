@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+#glavni {
+    border: 1px solid black;
+    border-radius: 20px;
+    font-size: 25pt;
+    height: auto;
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+p {
+    display: inline;
+    margin: 25px;
+}
+#bg-color {
+    width: 100px;
+    background: transparent;
+}
+#biraj {
+    font-size: 20pt;
+    border: 1px solid black;
+    box-shadow: .5px .5px white,
+                -.5px -.5px white,
+                .5px -.5px white,
+                -.5px .5px white;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 15px;
+    border-radius: 10px;
+    background: transparent;
+}

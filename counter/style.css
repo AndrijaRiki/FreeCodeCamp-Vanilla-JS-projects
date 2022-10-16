@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: wheat;
+}
+#count {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 25pt;
+    font-weight: 600;
+}
+#btns {
+    display: block;
+    margin-top: 50px;
+}
+button {
+    font-size: 15pt;
+    font-weight: 400;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0 10px;
+    border: 3px solid black;
+}
+button:active {
+    border: 3px solid rgb(98, 98, 196);
+    color:rgb(98, 98, 196)
+}

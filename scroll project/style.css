@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 50px;
+    background-color: white;
+    z-index: 1000;
+    position: fixed;
+    width: 100%;
+}
+header img {
+    width: 50px;
+    height: 50px;
+}
+#navigate a {
+    margin: 0 10px;
+    font-size: larger;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: black
+}
+section {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    scroll-snap-type: mandatory;
+}
+section h1 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 35pt;
+    font-weight: 900;
+    color: rgb(32, 142, 238);
+    position: relative;
+    top: 35px;
+}
+#home {
+    background-image: url("bg3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#home h1 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 35pt;
+    font-weight: 900;
+    color: rgb(32, 142, 238);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#aboutUs {
+    background-color: blanchedalmond;
+}
+#services {
+    background-color: salmon;
+}
+#tours {
+    background-color: fuchsia;
+}
